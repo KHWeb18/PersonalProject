@@ -1,0 +1,4 @@
+//myPageBoard
+export const FETCH_MY_BOARD_LIST = 'FETCH_MY_BOARD_LIST'
+export const FETCH_MY_BOARD = 'FETCH_MY_BOARD'
+export const FETCH_FEED_BOARD_LIST = 'FETCH_FEED_BOARD_LIST'
