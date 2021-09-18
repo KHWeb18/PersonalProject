@@ -1,0 +1,31 @@
+server:
+  port: 3647
+
+spring:
+  datasource:
+    #url: jdbc:mysql://localhost:3306/non_jpa_db?serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://localhost:3306/jpa_db?serverTimezone=UTC&useSSL=false
+    username: khweb
+    password: khWeb@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    dialect: org.hibernate.dialect.MySQL8Dialect
+
+  jpa:
+    open-in-view: false
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+
+
+openapi:
+  service:
+    url: http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson
+    key: 56N1oIB7JUQYnzCMOw7aPCWtyq2oQUUJ5bzS1Dak3Y49j7n93E7PjNlaORzNdbZuCNHpZ%2B5aSgGURTgHaajwIg%3D%3D
