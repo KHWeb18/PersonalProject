@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Gowun+Dodum&family=Poor+Story&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+/*header {*/
+/*    background-color: rgba(247, 253, 95, 0.82);*/
+/*}*/
+
+/*.navbar {*/
+/*    width: 1200px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 12px 0px;*/
+/*    !*background-color: red;*!*/
+/*}*/
+
+/*.navbar_logo a {*/
+/*    font-size: 35px;*/
+/*    color: rgb(229, 119, 175);*/
+/*    font-family: 'Poor Story', cursive;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.navbar_menu {*/
+/*    display: flex;*/
+/*    padding-left: 0;*/
+/*}*/
+
+/*.navbar_menu li {*/
+/*    padding: 8px 27px;*/
+/*    font-family: 'Poor Story', cursive;*/
+/*    font-weight: bold;*/
+/*    font-size: 17px;*/
+/*}*/
+
+
+/*.navbar_gnb {*/
+/*    display: flex;*/
+/*}*/
+
+/*.navbar_gnb li {*/
+/*    padding: 8px 5px;*/
+/*    font-size: 13px;*/
+/*    font-family: 'Poor Story', cursive;*/
+/*    !*font-weight: bold;*!*/
+/*}*/
+
+
