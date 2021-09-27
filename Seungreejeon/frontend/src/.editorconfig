@@ -1,0 +1,9 @@
+[*.{js,jsx,ts,tsx,vue}]
+# 들여쓰기 스페이스
+indent_style = space 
+# 스페이스 두칸
+indent_size = 2  
+# 문자앞에 공백제거
+trim_trailing_whitespace = true 
+# 파일 저장시 파일의 끝은 새로운 줄로 만들겠다는 뜻
+insert_final_newline = true 
