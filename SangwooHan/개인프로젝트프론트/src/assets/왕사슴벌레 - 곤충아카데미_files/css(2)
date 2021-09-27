@@ -1,0 +1,167 @@
+
+/* ====================================== Quick Design CSS ============================================ */
+/* ======== 카테고리 네비게이션 ======== */
+.layout_header .nav_wrap .respCategoryList .categoryDepth1.on .categoryDepthLink>em,
+.layout_header .nav_wrap .respCategoryList .custom_nav_link.on .categoryDepthLink>em {
+	border-bottom-color:#df2929 !important; /* 활성화 메뉴 - 라인 */
+}
+.layout_header .nav_wrap .respCategoryList .categoryDepthLink>em:after {
+	background:#df2929 !important; /* 활성화 메뉴 - 라인 */
+}
+.layout_header .nav_wrap .respCategoryList .categoryDepth1.on .categoryDepthLink,
+.layout_header .nav_wrap .respCategoryList .custom_nav_link.on .categoryDepthLink,
+.all_list_contents .all_list_depth1>li:hover>a,
+.all_list_contents .all_list_depth2>li:hover>a,
+.all_list_contents .all_list_depth3>li:hover>a {
+	color:#df2929 !important; /* 활성화 메뉴 - 텍스트 */
+}
+.layout_header .nav_wrap .respCategoryList .custom_nav_link .categoryDepthLink {
+	color:#e86363 !important; /* 서브 메뉴 */
+}
+
+/* ======== 어사이드/마이쇼핑/고객센터 - LNB 활성화 메뉴 ======== */
+.subpage_lnb .lnb_sub>li.on>a,
+.aside_navigation_wrap ul.menu.board>li.on a,
+.aside_navigation_wrap ul.menu li.mitem.category.on a.mitem_goodsview,
+.aside_navigation_wrap ul.menu li.mitem_subcontents ul.submenu li.submitem.category.on a.mitem_goodsview {
+	color:#df2929 !important;
+}
+
+/* ======== 판매가/할인적용 금액/총 결제금액 ======== */
+.goods_spec_sections .deatil_price_area .sale_price,
+.searched_item_display .item_info_area .goods_price_area .sale_price,
+.goods_price_area .total_goods_price,
+.displaY_sales_price,
+.order_price_total>ul.total>li.td,
+.cart_list .cgd_contents .block2 .total_p,
+.total_sum_price .settle_price,
+.total_sum_price .settle_price .num,
+.recent_wrap .recent_list .recent_price .nomal_price>b,
+.wish_wrap .wish_list .wish_price .nomal_price>b {
+	color:#df2929 !important;
+}
+
+/* ======== 할인율 ======== */
+.displaY_sales_percent,
+.searched_item_display .item_info_area .goods_price_area .discount_rate {
+	color:#df2929 !important;
+}
+
+/* ======== 단독이벤트 ======== */
+.spec_solo_event .remain_time .title,
+.displaY_event_time .title,
+.cart_list .cgd_contents .event_area .title {
+	background-color:#df2929 !important; /* 아이콘 */
+}
+.spec_solo_event .event_datetime_box,
+.displaY_event_time .time_container,
+.cart_list .cgd_contents .event_area .time {
+	background-color:#df2929 !important; /* 배경 */
+	color:#ffffff !important; /* 텍스트 */
+}
+
+/* ======== 평점 별 색상 ======== */
+.displaY_review_score_a .ev_active2>b,
+.goods_spec_customer_ev .ev_active2>b {
+	background-color:#df2929 !important;
+}
+
+/* ======== 상품상세 할인율 ======== */
+.deatil_sale_rate {
+	background-color:#e86363 !important; /* 할인율 - 배경 */
+	color:#ffffff !important; /* 할인율 - 텍스트 */
+}
+
+/* ======== 쿠폰 버튼 컬러 ======== */
+.resp_coupon_list>li>ul>li.bul,
+.detail_relation_event>li>a:after {
+	background-color:#df2929 !important; /* 쿠폰 버튼 컬러 */
+}
+
+/* ======== 주요 버튼 컬러 ======== */
+.btn_resp.color2.size_c,
+.btn_resp.color2.size_extra,
+.btn_resp.color2.size_extra2,
+.resp_login_wrap .btn_resp.size_login1 {
+	outline:none;
+	border-color:#df2929 !important; /* 라인 */
+	background-color:#df2929 !important; /* 배경 */
+	color:#ffffff !important; /* 텍스트 */
+}
+
+/* ======== 푸시 카운트 ======== */
+.layout_header .cart_cnt1,
+.asie_main_menu .push_count,
+.my_order_step .pushCount,
+#layout_header .benefit {
+	background:#df2929 !important; /* 배경 */
+	color:#ffffff !important; /* 텍스트 */
+}
+#layout_header .benefit .arrow {
+	color:#df2929 !important;
+}
+
+/* ======== BEST 페이지 랭크 ======== */
+.best_page_ranking>ul>li:nth-child(1) .item_rank {
+	background-color:#df2929 !important; /* 1위 - 배경 */
+	color:#ffffff !important; /* 1위 - 텍스트 */
+}
+.best_page_ranking>ul>li:nth-child(2) .item_rank {
+	background-color:#df2929 !important; /* 2위 - 배경 */
+	color:#ffffff !important; /* 2위 - 텍스트 */
+}
+.best_page_ranking>ul>li:nth-child(3) .item_rank {
+	background-color:#df2929 !important; /* 3위 - 배경 */
+	color:#ffffff !important; /* 3위 - 텍스트 */
+}
+
+
+/* ======== 게시판 상세 - 현재글 ======== */
+.res_table>.tbody.now_list {
+	outline-color:#df2929 !important; /* 라인 */
+}
+.res_table>.tbody.now_list .now {
+	color:#df2929 !important; /* 텍스트 */
+}
+
+/* ======== 페이징 - 현재 페이지 ======== */
+.paging_navigation a.red,
+.paging_navigation a.on,
+.paging_navigation_pop a.red,
+.paging_navigation_pop a.on {
+	border-color:#df2929 !important; /* 라인 */
+	color:#df2929 !important; /* 텍스트 */
+}
+
+/* ======== 상세설정 컬러 지정 버튼 ========= */
+div.gnb_active_line { background: #df2929 }
+div.gnb_active_text { background: #df2929 }
+div.gnb_submenu { background: #e86363 }
+div.lnb_active_text { background: #df2929 }
+div.sale_price { background: #df2929 }
+div.basic_sale_rate { background: #df2929 }
+div.solo_event_icon { background: #df2929 }
+div.solo_event_bg { background: #df2929 }
+div.solo_event_text { background: #ffffff }
+div.review_score { background: #df2929 }
+div.deatil_sale_rate_bg { background: #e86363 }
+div.deatil_sale_rate_text { background: #ffffff }
+div.coupon_btn { background: #df2929 }
+div.major_button_line { background: #df2929 }
+div.major_button_bg { background: #df2929 }
+div.major_button_text { background: #ffffff }
+div.push_count_bg { background: #df2929 }
+div.push_count_text { background: #ffffff }
+div.best_rank1_bg { background: #df2929 }
+div.best_rank1_text { background: #ffffff }
+div.best_rank2_bg { background: #df2929 }
+div.best_rank2_text { background: #ffffff }
+div.best_rank3_bg { background: #df2929 }
+div.best_rank3_text { background: #ffffff }
+div.board_list_active_line { background: #df2929 }
+div.board_list_active_text { background: #df2929 }
+div.paging_active_line { background: #df2929 }
+div.paging_active_text { background: #df2929 }
+
+/* ====================================== //Quick Design CSS ============================================ */
+
