@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------------------reset------------------- */
+body {
+
+	font-family: 'CookieRun-Regular', cursive;
+	font-weight:10;
+	min-height: 10vh; 
+	color:#171717;
+	background:  #ef9a9a
+
+}
+
+li{  list-style:none;  }
+ul, ol{  list-style:none;  }
+a{  text-decoration:none; color:#fff; cursor:pointer  }
+img{ vertical-align:top; } /* img가 베이스라인만큼 떠있는 것을 없애줌 */
+table{ width:100%; border-collapse:collapse; }
+strong, em{ font-style:normal; font-weight:400; }
+button{ border:none; padding:0; background-color:transparent; color:#fff; cursor:pointer;  }
+button:focus{ outline:none; }
+input:focus{ outline:none; font-size: 9px; }
+
+
+/* ---------------------common------------------- */
+.clear:after{ content:''; display:block; clear:both; }
+.englishFont{ font-family: 'Gloria Hallelujah', 'CookieRun-Regular', cursive; font-weight: bold; }
+.englishFontLight{ font-family: 'Gloria Hallelujah', 'CookieRun-Regular', cursive; font-weight: 400; }
+.btn{ border-radius:10px; margin:0 auto; padding:15px 30px; font-size:50px; box-shadow:3px 3px 4px rgba(0, 0, 0, .5); display:block; opacity:1; transition:all .2s ease-out; }
+.btn:hover{ transform:scale(1.05, 1.05); }
+
+
+/* ---------------------content------------------- */
+.content{ border-radius: 40px; max-width:600px; min-height:400px; margin: 0 auto; position: relative; }
+.title{ padding: 0px 0 30px; }
+.title > h1{ font-size:50px; font-weight: 200; text-align:center; color: #fff; }
+
+
+/* listBox(메뉴목록 리스트 박스) */
+.listBox{ margin-top: 10px; padding: 10px 20px; position: relative; }
+.listBox:before{ content: ''; display: block; width: 100%; height: 30px; }
+.listBox:after{ content: ''; display: block; width: 100%; height: 30px; }
+.listBox > li.menu{ border-radius: 8px; margin: 10px 10px; padding: 4px 40px 2px 13px; font-family: 'CookieRun-Regular', cursive; color: #fff; background-color: #ff1744; box-shadow:1px 1px 2px rgba(0, 0, 0, .5);  display: inline-block; position: relative; }
+.listBox > li.menu > button{  padding: 3px 6px; background-color: rgba(0, 0, 0, .2); position: absolute; top: 50%; right: 8px; transform: translateY(-50%); }
+.listBox > li.menu:hover{ transform: scale(1.1, 1.1); transition:all .1s ease-out;  }
+.listBox > li.menu > button:hover{ background-color: rgba(0, 0, 0, .4); }
+
+
+/* menuPlus */
+.menuPlus{ width: 210px; margin: 50px auto 0; display: block; position: relative; }
+.menuPlus:before{ content: ''; display: block; width: 100px; height: 20px;}
+.menuPlus > input{ border: none; width: 160px; padding: 10px 6px;  color: #fff; background-color: transparent; }
+.menuPlus > input::placeholder{ color: #fff; }
+.menuPlus > .plusBtn{ padding: 3px 4px 0; font-size: 20px; color: #000; font-weight: bold; transform: translateY(3px); }
+.menuPlus > .plusBtn:hover{ font-size: 23px; }
+
+
+/* resultBox */
+.resultBox{ }
+.result{ width:100%; margin: 50px 0; text-align:center; font-size:50px; opacity:0; transition:all .5s ease-out; transition-delay:.3s;}
+.listBox.hide,
+.menuPlus.hide,
+.result.show{ opacity:1; }
+.confirm{  width:100%; text-align:center; opacity:0; z-index:100;}
+.confirm.show{ min-height:100px; opacity:1; }
+.confirm > p{ width:100%; font-size:50px; }
+.confirm > p > strong{ font-size:150px; display:block; }
+
+
+.btnBox{ width:100%; height:100px; }
+.btnBox.hide2{ bottom:50px; }
+
+.btnBox >.alertText{ border-radius: 10px; width: 100px; padding: 20px 0; font-size: 50px; text-align: center; box-shadow:3px 3px 4px rgba(0, 0, 0, .5); background-color: #ff1744;  display: none; }
+
+.btnBox > .alertText.show{ display: block ; }
+.btnBox > button.click.hide{ display: none; }
+
+.btnBox > button.click{ color:#fff; background-color: #ff1744; height:75px }
+.btnBox.hide > button.click{ opacity:0; }
+.btnBox.hide2 > button.click{ display:none; }
+
+.btnBox > .afterBtns{ margin-top: 50px; transition:all .1s ease-out; opacity:0; position:absolute; left:50%; transform:translateX(-50%); display:none; }
+.btnBox > .afterBtns > button.btn{ margin:0 13px; padding:10px; font-size:10px; text-align:center; font-family: 'CookieRun-Regular';  display:inline-block; }
+.btnBox > .afterBtns > button.ok,
+.btnBox > .afterBtns > button.mapBtn{ color:#ff1744; background-color:#fff; }
+.btnBox > .afterBtns > button.mapBtn{ display: none; }
+.btnBox > .afterBtns > button.mapBtn.show{ display: inline-block; }
+.btnBox > .afterBtns > button.replay{  color:#fff; background-color:#ff1744;  }
+
+.btnBox.hide > .afterBtns{ display:inline-block; }
+.btnBox.hide2 > .afterBtns{ opacity:1; transition-delay:.3s; }
+.btnBox.hide3 > .afterBtns{ width:auto; }
+.btnBox.hide3 > .afterBtns > button.ok{ display:none; }
+
+
+
+/* alert창 */ 
+
+
+@media screen and (max-width: 600px) {
+	.content{ min-height:750px; }
+	h1{ margin:40px 0; font-size:20px; }
+	
+	/* menuPlus */
+	.menuPlus > input{ font-size:18px; }
+
+	/* resultBox */
+	.result{ font-size:70px; }
+
+	.confirm{ top:110px; }
+	.confirm.show{ min-height:300px; }
+	.confirm > span{ font-size:30px; }
+	.confirm > span > strong{ font-size:70px; }
+
+    .btnBox{ height:170px; }
+    .btnBox > .afterBtns{ width:auto; }
+    .btnBox > .afterBtns > button.btn{ width:180px; margin:10px; display:block; }
+}
+
+
+@media screen and (max-width: 450px) {
+	/* menuPlus */
+	.menuPlus{ width:90%; }
+	.menuPlus > input{ width:calc(80% + -110px); padding:7px 15px; }
+}
