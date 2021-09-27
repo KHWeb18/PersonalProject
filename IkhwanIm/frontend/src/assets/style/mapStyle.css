@@ -1,0 +1,9 @@
+div.mapContainer{
+    width: 600px;
+    height: 600px;
+}
+.map{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

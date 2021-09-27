@@ -1,0 +1,193 @@
+[
+	{
+		"city": "Amsterdam",
+		"country": "Netherlands",
+		"video_id": [
+			"N29TC4gfyeQ"
+		],
+		"zoom":"4.900155239402466,52.377287947665934"
+	},
+	{
+		"city": "Ankara",
+		"country": "Turkey",
+		"video_id": [
+			"poZGw6hfU4w"
+		],
+		"zoom": "32.892246608262326,39.82096321502209"
+	},
+	{
+		"city": "Antalya",
+		"country": "Turkey",
+		"video_id": [
+			"_GVR-O_xFgo",
+			"rP30Zx4Ma7k"
+		],
+		"zoom":"30.68508233396733,36.89683499090043"
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"video_id": [
+			"CytuK9VubhM",
+			"VVqGTGaiDP4"
+		],
+		"zoom": "2.17753708880025,41.381595601578795"
+	},
+	{
+		"city": "Beijing",
+		"country": "China",
+		"video_id": [
+			"6rIZbT4a0bU"
+		],
+		"zoom": "116.39044268249245,39.902275239157916"
+	},
+	{
+		"city": "Budapest",
+		"country": "Hungary",
+		"video_id": [
+			"6GEizzxjz68",
+			"Vm10G66WaGs",
+			"ozutgCMlhms"
+		],
+		"zoom": "19.042288339344054,47.49449407754631"
+	},
+	{
+		"city": "Busan",
+		"country": "Korea",
+		"video_id": [
+			"DQSBvzGtmUA",
+			"idXG8fEK8Lo"
+		],
+		"zoom": "129.04032501565212,35.094827039148"
+	},
+	{
+		"city": "Chicago",
+		"country": "USA",
+		"video_id": [
+			"CfvJHoJhvGE",
+			"h3gqaIjoujE"
+		],
+		"zoom": "-87.6223195911241,41.87297660009611"
+	},
+	{
+		"city": "Curitiba",
+		"country": "Brazil",
+		"video_id": [
+			"286kbyOkRP8"
+		],
+		"zoom": "-49.26935594306008,-25.432976267819058"
+	},
+	{
+		"city": "Daegu",
+		"country": "Korea",
+		"video_id": [
+			"6eRVkVm0gYg"
+		],
+		"zoom": "128.60439287499844,35.86240573773284"
+	},
+	{
+		"city": "Delhi",
+		"country": "India",
+		"video_id": [
+			"AQKIwkAnsyM",
+			"SHlPyEkt9Ok"
+		],
+		"zoom": "77.22049247157918,28.66154618221138"
+	},
+	{
+		"city": "Dubai",
+		"country": "UAE",
+		"video_id": [
+			"IPJ-9P7JRyI",
+			"IqBKDuTnNkA"
+		],
+		"zoom": "55.293037934726954,25.261174966363342"
+	},
+	{
+		"city": "Dublin",
+		"country": "Ireland",
+		"video_id": [
+			"JoOFYRnQ9Rs"
+		],
+		"zoom": "-6.265660166002476,53.34131855787467"
+	},
+	{
+		"city": "Dunedin",
+		"country": "New Zealand",
+		"video_id": [
+			"ZRFw31gc3O8"
+		],
+		"zoom": "170.49985572621654,-45.86792889053832"
+	},
+	{
+		"city": "Hawaii",
+		"country": "USA",
+		"video_id": [
+			"XAYgjlMo9ow"
+		],
+		"zoom": "-157.8831317160748,21.37643015913376"
+	},
+	{
+		"city": "Lisbon",
+		"country": "Portugal",
+		"video_id": [
+			"PUzI2aHRCEo",
+			"T44KKC_fqyM"
+		],
+		"zoom": "-9.148406271759427,38.72571559058645"
+	},
+	{
+		"city": "London",
+		"country": "UK",
+		"video_id": [
+			"lf7lyk6fr0A",
+			"qxA3ZCFmEMw"
+		],
+		"zoom": "-0.12765296855377528,51.50478106037974"
+	},
+	{
+		"city": "Los Angeles",
+		"country": "USA",
+		"video_id": [
+			"1740VNS3aP8",
+			"FFrilPtVX3o",
+			"LiY_gprn8Xk"
+		],
+		"zoom": "-118.24394566838674,34.050905155982676"
+	},
+	{
+		"city": "Miami",
+		"country": "USA",
+		"video_id": [
+			"pwYsk-PudkM",
+			"rlbJSPdL_4E"
+		],
+		"zoom": "-80.19513124768582,25.7689216442985"
+	},
+	{
+		"city": "New York City",
+		"country": "USA",
+		"video_id": [
+			"-IpXdtWfneI",
+			"eZe4Q_58UTU&t"
+		],
+		"zoom": "-73.98536561336732,40.727726412505916"
+	},
+	{
+		"city": "Seoul",
+		"country": "Korea",
+		"video_id": [
+			"C065GlWCuig",
+			"CFeyh-Tttvs"
+		],
+		"zoom": "126.9783236820549,37.55063742066571"
+	},
+	{
+		"city": "Stockholm",
+		"country": "Sweden",
+		"video_id": [
+			"yzDBDPFNgI0"
+		],
+		"zoom": "18.068635841063042,59.32902368285761"
+	}
+]
