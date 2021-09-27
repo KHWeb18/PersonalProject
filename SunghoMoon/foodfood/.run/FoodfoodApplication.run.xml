@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="FoodfoodApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <option name="MAIN_CLASS_NAME" value="com.example.foodfood.FoodfoodApplication" />
+    <module name="foodfood.main" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.example.foodfood.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
